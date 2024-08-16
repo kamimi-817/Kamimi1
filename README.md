@@ -24,7 +24,7 @@
     <div class="container">
                 <main>
             <div class="image-container">
-                <img src=![天武天皇_清書_1](https://github.com/user-attachments/assets/c082ed52-9819-47ef-a207-6e53fd9675eb) alt="神使いの狐">
+                <img src="./img/天武天皇_清書_1.png" alt="天武天皇">
             </div>
             <section class="title">
                 <h1>天武天皇</h1>
