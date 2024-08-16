@@ -24,7 +24,7 @@
     <div class="container">
                 <main>
             <div class="image-container">
-                <img src="./天武天皇_清書_1.png" alt="天武天皇">
+                <img src="天武天皇_清書_1.png" alt="天武天皇">
             </div>
             <section class="title">
                 <h1>天武天皇</h1>
