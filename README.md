@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>神使いの狐</title>
+    <title>天武天皇</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -24,7 +24,7 @@
     <div class="container">
                 <main>
             <div class="image-container">
-                <img src="./img/天武天皇_清書_1.png" alt="神使いの狐">
+                <img src=![天武天皇_清書_1](https://github.com/user-attachments/assets/c082ed52-9819-47ef-a207-6e53fd9675eb) alt="神使いの狐">
             </div>
             <section class="title">
                 <h1>天武天皇</h1>
