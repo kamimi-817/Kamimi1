@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-image: url('./img/背景\　２.png'); /* 背景画像のパスを指定 */
+    background-image: url('スクリーンショット 2024-09-19 23.39.42.png'); /* 背景画像のパスを指定 */
     background-color: rgb(139, 185, 144);
  
     background-size: cover; /* 背景画像をウィンドウに合わせてカバー */
