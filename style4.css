@@ -77,6 +77,14 @@ body {
         justify-content: center;
         gap: 10px;
     }
+    .fixed-text {
+    text-align: left;
+    color: #696969;
+    font-family: 'Noto Serif JP', serif;
+    padding: 20px;
+    max-width: 1000px;
+    margin-top: -90px;
+}
 }
 
 @media (max-width: 900px) {
@@ -93,6 +101,14 @@ body {
         justify-content: center;
         gap: 100px;
     }
+    .fixed-text {
+    text-align: left;
+    color: #696969;
+    font-family: 'Noto Serif JP', serif;
+    padding: 20px;
+    max-width: 1000px;
+    margin-top: -90px;
+}
 }
 
 @media (max-width: 600px) {
@@ -117,6 +133,14 @@ body {
         justify-content: center;
         gap: 100px;
     }
+    .fixed-text {
+    text-align: left;
+    color: #696969;
+    font-family: 'Noto Serif JP', serif;
+    padding: 20px;
+    max-width: 1000px;
+    margin-top: -90px;
+}
 }
 
 
@@ -192,7 +216,7 @@ body {
     font-family: 'Noto Serif JP', serif;
     padding: 20px;
     max-width: 1000px;
-    margin-top: -90px;
+    margin-top: -0px;
 }
 
 .fixed-text h2 {
