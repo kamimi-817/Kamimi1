@@ -62,86 +62,7 @@ body {
     object-fit: cover; /* コンテナに収める */
 }
 
-/* メディアクエリを追加して画面サイズに応じて変更 */
-@media (max-width: 1200px) {
-    .slide img {
-        width: 50%; /* 中サイズの画面用 */
-    }
-    .slide-footer {
-        position: absolute;
-        bottom: 1px; /* スライド画像の真下に配置 */
-        left: 0%;
-        transform: translateX(100%);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-    }
-    .fixed-text {
-    text-align: left;
-    color: #696969;
-    font-family: 'Noto Serif JP', serif;
-    padding: 20px;
-    max-width: 1000px;
-    margin-top: -90px;
-}
-}
 
-@media (max-width: 900px) {
-    .slide img {
-        width: 70%; /* 小サイズの画面用 */
-    }
-    .slide-footer {
-        position: absolute;
-        bottom: 1px; /* スライド画像の真下に配置 */
-        left: 0%;
-        transform: translateX(100%);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 100px;
-    }
-    .fixed-text {
-    text-align: left;
-    color: #696969;
-    font-family: 'Noto Serif JP', serif;
-    padding: 20px;
-    max-width: 1000px;
-    margin-top: -90px;
-}
-}
-
-@media (max-width: 600px) {
-    .slide img {
-        width: 100%; /* モバイルサイズの画面用 */
-    }
-    .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-     
-        margin-top: -26%;
-    }
-    .slide-footer {
-        position: absolute;
-        bottom: 1px; /* スライド画像の真下に配置 */
-        left: 0%;
-        transform: translateX(100%);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 100px;
-    }
-    .fixed-text {
-    text-align: left;
-    color: #696969;
-    font-family: 'Noto Serif JP', serif;
-    padding: 20px;
-    max-width: 1000px;
-    margin-top: -90px;
-}
-}
 
 
 /* スライド本体のスタイリング */
@@ -274,3 +195,83 @@ body {
     z-index: 1; /* 他の要素よりも前面に配置 */
 }
 
+/* メディアクエリを追加して画面サイズに応じて変更 */
+@media (max-width: 1200px) {
+    .slide img {
+        width: 50%; /* 中サイズの画面用 */
+    }
+    .slide-footer {
+        position: absolute;
+        bottom: 1px; /* スライド画像の真下に配置 */
+        left: 0%;
+        transform: translateX(100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    .fixed-text {
+    text-align: left;
+    color: #696969;
+    font-family: 'Noto Serif JP', serif;
+    padding: 20px;
+    max-width: 1000px;
+    margin-top: -90px;
+}
+}
+
+@media (max-width: 900px) {
+    .slide img {
+        width: 70%; /* 小サイズの画面用 */
+    }
+    .slide-footer {
+        position: absolute;
+        bottom: 1px; /* スライド画像の真下に配置 */
+        left: 0%;
+        transform: translateX(100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+    }
+    .fixed-text {
+    text-align: left;
+    color: #696969;
+    font-family: 'Noto Serif JP', serif;
+    padding: 20px;
+    max-width: 1000px;
+    margin-top: -0px;
+}
+}
+
+@media (max-width: 600px) {
+    .slide img {
+        width: 100%; /* モバイルサイズの画面用 */
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+     
+        margin-top: -26%;
+    }
+    .slide-footer {
+        position: absolute;
+        bottom: 1px; /* スライド画像の真下に配置 */
+        left: 0%;
+        transform: translateX(100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+    }
+    .fixed-text {
+    text-align: left;
+    color: #696969;
+    font-family: 'Noto Serif JP', serif;
+    padding: 20px;
+    max-width: 1000px;
+    margin-top: -90px;
+}
+}
