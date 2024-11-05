@@ -266,6 +266,7 @@ body {
         align-items: center;
         justify-content: center;
         gap: 10px;
+        left: -20px;
     }
     .fixed-text {
     text-align: left;
