@@ -209,6 +209,7 @@ body {
         align-items: center;
         justify-content: center;
         gap: 10px;
+        margin-top: 20px;
     }
     .fixed-text {
     text-align: left;
@@ -228,11 +229,11 @@ body {
         position: absolute;
         bottom: 1px; /* スライド画像の真下に配置 */
         left: 0%;
-        transform: translateX(100%);
+        transform: translateX(0%);
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 100px;
+        gap: 10px;
     }
     .fixed-text {
     text-align: left;
