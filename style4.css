@@ -202,9 +202,9 @@ body {
     }
     .slide-footer {
         position: absolute;
-        bottom: 5px; /* スライド画像の真下に配置 */
+        bottom: 85px; /* スライド画像の真下に配置 */
         left: 0%;
-        transform: translateX(30%);
+        transform: translateX(80%);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -277,3 +277,14 @@ body {
     margin-top: -90px;
 }
 }
+.slide-footer {
+        position: absolute;
+        bottom: 5px; /* スライド画像の真下に配置 */
+        left: 0%;
+        transform: translateX(30%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 50px;
+    }
