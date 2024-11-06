@@ -194,6 +194,18 @@ body {
     left: 0; /* 左部に配置 */
     z-index: 1; /* 他の要素よりも前面に配置 */
 }
+.slide-footer {
+        position: absolute;
+        bottom: 5px; /* スライド画像の真下に配置 */
+        left: 0%;
+        transform: translateX(30%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 50px;
+    }
+
 
 /* メディアクエリを追加して画面サイズに応じて変更 */
 @media (max-width: 1200px) {
@@ -277,14 +289,3 @@ body {
     margin-top: -90px;
 }
 }
-.slide-footer {
-        position: absolute;
-        bottom: 5px; /* スライド画像の真下に配置 */
-        left: 0%;
-        transform: translateX(30%);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-        margin-top: 50px;
-    }
