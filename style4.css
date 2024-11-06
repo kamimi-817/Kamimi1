@@ -271,7 +271,7 @@ body {
     }
     .slide-footer {
         position: absolute;
-        bottom: 95px; /* スライド画像の真下に配置 */
+        bottom: 85px; /* スライド画像の真下に配置 */
         left: 0%;
         transform: translateX(10%);
         display: flex;
