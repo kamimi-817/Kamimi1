@@ -1,0 +1,170 @@
+/* General body styling */
+body {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center;
+    margin: 0;
+    background-color: #f5f5f5;
+    background-image: url('./img/homeページ\　背景.png'); /* 背景画像のパスを指定 */
+    background-size: cover; /* Scale the image to cover the entire screen */
+    background-position: center; /* Center the image on the screen */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Set body height to viewport height */
+    background-color: rgb(245, 236, 212);
+}
+
+/* Header styling */
+.header {
+    width: 100%;
+    background-color: #f5f1e7; /* Light beige or any background color you prefer */
+    text-align: center;
+    padding: 5px 0;
+    color: #4a4a4a;
+    font-family: 'Noto Serif JP', serif;
+}
+
+.header img {
+    width: 150px;
+    margin-top: 10px;
+}
+
+.header p {
+    font-size: 18px;
+    margin-top: 5px;
+    color: #7a7a7a;
+}
+
+/* Container styling */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+ 
+    margin-top: -40px;
+}
+
+/* スライダー全体のスタイリング */
+/* スライダー全体のスタイリング */
+.slider {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px; /* 画像のサイズに合わせて調整 */
+    overflow: hidden;
+    height: 380px; /* 画像に合わせた高さ */
+}
+
+/* 各スライドの画像スタイリング */
+.slide img {
+    width: 80%; /* スライドをいっぱいにする */
+    height: auto; /* アスペクト比を維持 */
+    object-fit: cover; /* コンテナに収める */
+    margin-top: 60px;
+}
+
+.fixed-text {
+    text-align: left;
+    color: #696969;
+    font-family: 'Noto Serif JP', serif;
+    padding: 20px;
+    max-width: 1000px;
+    margin-top: 50px;
+}
+
+/* スライドフッターのスタイリング */
+.slide-footer {
+    position: absolute;
+    margin-top: 335px;
+    left: 10%;
+    transform: translateX(0%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.hojozu-saisei a{
+    margin-top: -100px;
+}
+
+.circle-button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #a09a26; /* ボタンの色 */
+    border: none;
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.circle-button:hover {
+    background-color: #8f841e; /* ホバー時の色 */
+}
+
+.slide-footer span {
+    font-size: 14px;
+    color: #4a4a4a;
+    font-family: 'Noto Serif JP', serif;
+}
+
+/* 固定テキストのスタイリング */
+
+
+.fixed-text h2 {
+    font-size: 23px;
+    margin: 0;
+    max-width: 210px;
+    margin: 0 auto;
+    line-height: 40px;
+}
+
+.line {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 3px; /* Space between text and line */
+}
+
+/* First line's underline */
+.line:first-of-type::after {
+    content: "";
+    position: absolute;
+    bottom: 3;
+    left: -50%; /* Adjust the offset from the left */
+    width: 180%; /* Adjust the width of the line */
+    height: 1px; /* Thickness of the line */
+    background-color: #a09a26; /* Line color */
+}
+
+/* Second line's underline */
+.line:last-of-type::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 30%; /* Adjust the offset from the left */
+    width: 90%; /* Adjust the width of the line */
+    height: 0.8px; /* Thickness of the line */
+    background-color: #a09a26; /* Line color */
+}
+
+.fixed-text p {
+    font-size: 13px;
+    line-height: 1.6;
+    max-width: 320px;
+    margin: 20px auto;
+    line-height: 25px;
+}
+.slide a {
+    display: flex; /* リンクをフレックスボックスにする */
+    justify-content: center; /* 中央揃え */
+    align-items: center; /* 中央揃え */
+    width: 100%; /* 幅を100%に設定 */
+    
+    position: absolute; /* 親要素に対して絶対位置 */
+    top: 0; /* 上部に配置 */
+    left: 0; /* 左部に配置 */
+    z-index: 1; /* 他の要素よりも前面に配置 */
+}
+
