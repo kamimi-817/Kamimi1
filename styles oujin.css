@@ -17,13 +17,13 @@ body {
 }
 
 .container {
-    max-width: 450px; /* コンテナの横幅を縮める */
-    margin: 200px auto 0; /* 上部に余白を追加 */
+    max-width: 98%; /* コンテナの横幅を縮める */
+    margin: 20px auto 0; /* 上部に余白を追加 */
     padding: 20px;
     background-color: rgb(255, 247, 235);
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     position: relative;
-    padding-top: 100px; /* 画像の高さを考慮したパディング */
+    padding-top: 50px; /* 画像の高さを考慮したパディング */
     border-radius: 18px; /* 角を丸める */
 }
 
@@ -192,3 +192,4 @@ footer p {
 .footer-menu a:hover {
     text-decoration: underline;
 }
+
