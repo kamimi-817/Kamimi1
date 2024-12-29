@@ -84,8 +84,8 @@ nav {
 
 .container {
     width: 90%;
-    max-width: 400px;
-    margin: -220px auto;
+    max-width: 100%;
+
     padding: 20px;
     background-color: #fffcee;
     box-shadow: 0 0 10px rgba(33, 33, 33, 0.1);
