@@ -11,6 +11,8 @@ body {
     background-repeat: no-repeat; /* Prevent the image from repeating */
     height: 100vh; /* Set body height to viewport height */
     background-color: rgb(245, 236, 212);
+
+    margin-bottom: 40px;
 }
 
 /* Header styling */
@@ -167,4 +169,5 @@ body {
     left: 0; /* 左部に配置 */
     z-index: 1; /* 他の要素よりも前面に配置 */
 }
+
 
