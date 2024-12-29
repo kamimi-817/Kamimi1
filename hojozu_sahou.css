@@ -1,0 +1,153 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('/img/和紙\ 背景\ 編集後.png'); /* 画像のパスを指定 */
+    background-size: cover; /* 画像をコンテナ全体に合わせて拡大または縮小 */
+    background-position: center; /* 画像の位置を中央に設定 */
+    background-repeat: no-repeat; /* 画像の繰り返しを防ぐ */
+    color: #5b4636;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    
+}
+header {
+    background-color: #f0d9a7;
+    color: #fff;
+    margin: 0; /* マージンをリセット */
+    padding: 0; /* パディングをリセット */
+    height: 45px; /* 必要に応じて高さを設定 */
+
+}
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end; /* 右揃えにする */
+    margin: 0px; /* マージンをリセット */
+    padding: 0; /* パディングをリセット */
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+.menu a:hover {
+    background-color: #11320e;
+    border-radius: 5px;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0e4600;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0; /* 右に揃える */
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #555;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #555;
+}
+
+
+
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    margin: -220px auto;
+    padding: 20px;
+    background-color: #fffcee;
+    box-shadow: 0 0 10px rgba(33, 33, 33, 0.1);
+    border-radius: 8px;
+
+}
+
+.torii-image {
+    position: relative; /* 位置を設定してz-indexを効かせる */
+    text-align: center;
+    margin-bottom: 19px;
+    z-index: -1; /* 画像を後ろに配置 */
+}
+
+.torii-image img {
+    width: 350px;
+    margin-top: 10px;
+    height: auto;
+    transform: translateX(2px);
+}
+.bunsyou{
+    margin-top: -45px;
+}
+
+h1 {
+
+    text-align: center;
+    font-size: 27px;
+    margin-bottom: 0px;
+    color: #b35a35;
+    transform:translateY(-50px)
+}
+
+h2 {
+    font-size: 18px;
+    color: #b35a35;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: -21px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+ol {
+    margin-left: -18px;
+}
+/* フッターのスタイル */
+footer {
+    background-color: #f0d9a7; /* フッターの背景色 */
+    color: #ffffff; /* フッターのテキスト色 */
+    text-align: center;
+    padding: 7px 0;
+    margin-top: 210px; /* フッターの上に余白を作成 */
+    width: 100%; /* フッターの幅を全体に設定 */
+    box-sizing: border-box; /* パディングとボーダーを含めて幅を計算 */
+}
