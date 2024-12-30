@@ -85,7 +85,7 @@ nav {
 .container {
     width: 90%;
     max-width: 100%;
-
+    margin-top: -220px;
     padding: 20px;
     background-color: #fffcee;
     box-shadow: 0 0 10px rgba(33, 33, 33, 0.1);
