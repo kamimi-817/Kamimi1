@@ -5,7 +5,7 @@ body {
     align-items: center;
     margin: 0;
     background-color: #f5f5f5;
-    background-image: url('./img/homeページ\　背景.png'); /* 背景画像のパスを指定 */
+    background-image: url('.homeページ\　背景.png'); /* 背景画像のパスを指定 */
     background-size: cover; /* Scale the image to cover the entire screen */
     background-position: center; /* Center the image on the screen */
     background-repeat: no-repeat; /* Prevent the image from repeating */
