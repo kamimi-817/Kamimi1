@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style4.css">
+  <title>homeページ</title>
+   <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GJDVZ3E6EL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GJDVZ3E6EL');
+</script>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header class="header">
+    <img src="Kamimi_インスタロゴ_kamimiに書き直し.png" alt="画像1">
+  </header>
+  
+  <div class="container">
+    <div class="slider">
+        <div class="slide prev">
+          <a href="https://kamimi-817.github.io/Kamimi1/index_jp_takaokami.html">
+            <img src="homeページ_高龗神.png" alt="画像1">
+          </a>
+            <div class="slide-footer">
+                <button class="circle-button">▶︎</button>
+                <span>貴船神社の神様の説明</span>
+            </div>
+        </div>
+        <div class="slide active">
+          <a href="https://kamimi-817.github.io/Kamimi1/sahou_kihune_jp.html">
+            <img src="homeページ_参拝作法.png" alt="画像2">
+          </a>
+            <div class="slide-footer">
+                <button class="circle-button">▶︎</button>
+                <span>貴船神社での参拝作法</span>
+            </div>
+        </div>
+      <div class="slide next">
+        <a href="https://kamimi-817.github.io/Kamimi1/index_jp_takaokami.html">
+        <img src="homeページ_高龗神.png" alt="画像3">
+      </a>
+        <div class="slide-footer">
+          <button class="circle-button">▶︎</button>
+          <span>貴船神社の神様の説明</span>
+      </div>
+        <div class="slide-footer"></div>
+      </div>
+      <div class="slide">
+        <a href="https://kamimi-817.github.io/Kamimi1/sahou_kihune_jp.html">
+        <img src="homeページ_参拝作法.png" alt="画像4">
+      </a>
+        <div class="slide-footer">
+          <button class="circle-button">▶︎</button>
+          <span>貴船神社での参拝作法</span>
+      </div>
+        <div class="slide-footer"></div>
+      </div>
+    </div>
+    <div class="fixed-text">
+      <h2>
+        <span class="line">参拝を<br></span>
+        <span class="line">　より良いものに</span>
+      </h2>
+      <p>
+        神社での参拝は、神様に日頃の感謝を伝える場です。そして、心を整え、自分と向き合う特別な時間でもあります。Kamimiでは、こうしたひと時がより深く、意義ある体験となるようお手伝いしたいと考えています。神様や神社の歴史、参拝の作法をわかりやすく、身近に感じてもらえる工夫を日々探求し、提供しています。
+
+        私は、神社の魅力と伝統を未来へ繋げたいという思いから皆様が感謝と祈りの心を大切にしながら、神様とのご縁を育む「より良い参拝」を目指し、神社と皆様の心を繋ぐ架け橋となれるよう日々探求しております。
+      </p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
