@@ -18,12 +18,12 @@ body {
 
 .container {
     max-width: 98%; /* コンテナの横幅を縮める */
-    margin: 20px auto 0; /* 上部に余白を追加 */
+    margin: 200px auto 0; /* 上部に余白を追加 */
     padding: 20px;
     background-color: rgb(255, 247, 235);
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     position: relative;
-    padding-top: 50px; /* 画像の高さを考慮したパディング */
+    
     border-radius: 18px; /* 角を丸める */
 }
 
@@ -119,9 +119,9 @@ nav {
 
 
 main img {
-    width: 85%; /* 画像の幅を大きくする */
-    margin-top: -30px;
+    width: 100%; /* 画像の幅を大きくする */
     margin-bottom: 15px; 
+    margin-top: -225px;
 
 }
 
