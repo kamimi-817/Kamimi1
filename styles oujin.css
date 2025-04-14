@@ -7,7 +7,7 @@
 body {
     font-family: 'Arial', sans-serif;
     background-image: url('./img/和紙\　水色2.webp'); /* 背景画像のパスを指定 */
-    background-color: rgb(139, 185, 144);
+    background-color: rgb(195, 174, 213);
  
     background-size: cover; /* 背景画像をウィンドウに合わせてカバー */
     background-position: center; /* 背景画像の位置を中央に設定 */
@@ -20,7 +20,7 @@ body {
     max-width: 98%; /* コンテナの横幅を縮める */
     margin: 200px auto 0; /* 上部に余白を追加 */
     padding: 20px;
-    background-color: rgb(195, 174, 213);
+    background-color: rgb(255, 247, 235);
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     position: relative;
     
