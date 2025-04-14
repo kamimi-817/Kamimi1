@@ -20,7 +20,7 @@ body {
     max-width: 98%; /* コンテナの横幅を縮める */
     margin: 200px auto 0; /* 上部に余白を追加 */
     padding: 20px;
-    background-color: rgb(255, 247, 235);
+    background-color: rgb(195, 174, 213);
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     position: relative;
     
@@ -28,7 +28,7 @@ body {
 }
 
 header {
-    background-color: #09331b;
+    background-color: #875498;
     color: #fff;
     margin: 0; /* マージンをリセット */
     padding: 0; /* パディングをリセット */
