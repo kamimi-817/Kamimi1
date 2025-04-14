@@ -61,7 +61,7 @@ body {
 /* 各スライドの画像スタイリング */
 .slide img {
     width: 100%;
-    max-width: 400px;
+    max-width: 360px;
     height: auto;
     margin: 40px auto 0;
     display: block;
